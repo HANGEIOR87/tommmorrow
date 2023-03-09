@@ -1,0 +1,110 @@
+{
+	"id": "b77638e5-c68e-4d4d-a9aa-e86bd446f1f2",
+	"name": "Swagger Petstore 2",
+	"timestamp": "2023-03-09T08:58:05.236Z",
+	"collection_id": "25900132-82def87c-55c0-441a-b6bf-6870ac21a610",
+	"folder_id": 0,
+	"environment_id": "25900132-b4d56b9b-bc42-469b-87c9-fb07cfc2ffee",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "error",
+	"startedAt": "2023-03-09T08:58:01.982Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "27bc1a14-0b6d-4250-8e45-96a2ee8a0ff9",
+			"name": "Updates a pet in the store with form data",
+			"url": "https://petstore.swagger.io/v2/pet/-66597220",
+			"time": 283,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				283
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6cbccaae-9b1b-449b-a18a-67c5f72cba0d",
+			"name": "Deletes a pet",
+			"url": "https://petstore.swagger.io/v2/pet/-66597220",
+			"time": 445,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				445
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e868cda8-739a-456b-9c38-ccde9a82eaae",
+			"name": "uploads an image",
+			"url": "https://petstore.swagger.io/v2/pet/-66597220/uploadImage",
+			"time": 309,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				309
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f665ffc4-490e-4d94-a261-521e8ce1d46b",
+			"name": "Add a new pet to the store",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 365,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				365
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1402,
+	"collection": {
+		"requests": [
+			{
+				"id": "27bc1a14-0b6d-4250-8e45-96a2ee8a0ff9",
+				"method": "POST"
+			},
+			{
+				"id": "6cbccaae-9b1b-449b-a18a-67c5f72cba0d",
+				"method": "DELETE"
+			},
+			{
+				"id": "e868cda8-739a-456b-9c38-ccde9a82eaae",
+				"method": "POST"
+			},
+			{
+				"id": "f665ffc4-490e-4d94-a261-521e8ce1d46b",
+				"method": "POST"
+			}
+		]
+	}
+}
